@@ -20,3 +20,12 @@ Replace `assets/branding/amped-logo.png` with an updated logo using the same fil
 
 ## Home-screen icon
 The icon files are in `assets/icons/`. Upload all files and folders to the repository root. On iPhone Safari, open the published site, tap Share > Add to Home Screen. If an older icon is cached, remove the old shortcut and add it again.
+
+
+## November 2026 demo update
+- Top dashboard logo uses `assets/branding/amplified-banner.png`; iPhone home-screen icon unchanged.
+- Safety assignments offer a Monday-Sunday week selector, scheduled-meeting project dropdown, auto-selected technician checkboxes, and Service & Special Projects group training.
+- Meeting data is FICTIONAL demo data in `DEMO_MEETINGS` inside index.html. It does NOT access Zoho CRM. All simulated meetings appear in every selected week for demonstration. Canceled sample meetings are excluded.
+- Technicians must mark topic reviewed, pass five topic-specific questions at 80%, complete required weekly checklist and acknowledge. Incorrect and correct answers appear in results and manager submission detail.
+- The seeded Construction Sites topic has five questions. New manager-created topics cannot be assigned until a five-question approved bank is implemented.
+- GitHub Pages cannot safely read CRM credentials or store actual employee compliance records. A secure backend, authentication and Zoho API integration are required for production.

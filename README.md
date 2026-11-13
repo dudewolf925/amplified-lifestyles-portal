@@ -1,31 +1,11 @@
-# Amplified Lifestyles — GitHub Pages Test Portal
+# AMPLIFIED Safety Portal — Weekly Talk + PDF Training Demo
 
-## Publish (manual upload)
+Upload all ZIP contents to the root of the GitHub Pages repository.
 
-1. Open `https://github.com/Dudewolf925/amplified-lifestyles-portal`.
-2. Choose **Add file → Upload files**.
-3. Upload `index.html`, `.nojekyll`, and the `assets/branding/` image files while preserving the folder structure. On desktop, drag the **contents** of this extracted package into the GitHub upload area. GitHub's browser uploader may not preserve folders when selecting individual files; if necessary, create `assets/branding` in GitHub first and upload images there.
-4. Select **Commit changes**.
-5. In repository **Settings → Pages**, choose **Deploy from a branch**, **main**, **/(root)**, then **Save**.
-6. Visit `https://dudewolf925.github.io/amplified-lifestyles-portal/` once deployment completes.
-
-## Test only
-
-This is a static browser-local prototype. It does **not** have secure accounts, shared database, live emails, scheduled reminders, or Zoho Sign. All stored responses stay in the local browser and can be cleared. Do not enter real employee or confidential safety information. GitHub Pages content is publicly accessible.
-
-## Branding
-
-Replace `assets/branding/amped-logo.png` with an updated logo using the same filename to change the header branding later. Other brand assets are supplied for future design iterations.
-
-
-## Home-screen icon
-The icon files are in `assets/icons/`. Upload all files and folders to the repository root. On iPhone Safari, open the published site, tap Share > Add to Home Screen. If an older icon is cached, remove the old shortcut and add it again.
-
-
-## November 2026 demo update
-- Top dashboard logo uses `assets/branding/amplified-banner.png`; iPhone home-screen icon unchanged.
-- Safety assignments offer a Monday-Sunday week selector, scheduled-meeting project dropdown, auto-selected technician checkboxes, and Service & Special Projects group training.
-- Meeting data is FICTIONAL demo data in `DEMO_MEETINGS` inside index.html. It does NOT access Zoho CRM. All simulated meetings appear in every selected week for demonstration. Canceled sample meetings are excluded.
-- Technicians must mark topic reviewed, pass five topic-specific questions at 80%, complete required weekly checklist and acknowledge. Incorrect and correct answers appear in results and manager submission detail.
-- The seeded Construction Sites topic has five questions. New manager-created topics cannot be assigned until a five-question approved bank is implemented.
-- GitHub Pages cannot safely read CRM credentials or store actual employee compliance records. A secure backend, authentication and Zoho API integration are required for production.
+- Weekly Construction Safety Talk: checklist and acknowledgment only; **no quiz**.
+- Additional Safety Training: Basic Ladder Safety PDF included as a clean 7-page training-only copy (signature and completion-certificate pages omitted).
+- Manager review of 20 draft ladder questions; each technician receives 5 randomly selected questions in a pop-up after confirming review; 80% pass, randomized retakes.
+- Other PDF uploads are stored only in the current browser (4 MB limit); arbitrary-PDF AI question generation is **not connected**. Such topics cannot be assigned until a question bank is prepared and approved in a future release.
+- CRM meetings are fictional demonstration data; no real CRM sync, authentication, notifications, or shared compliance records.
+- Existing browser data is retained using the original localStorage key; refresh after upload. For a fresh test use Settings > Reset all browser test data (deletes only local demo records).
+- Do not use this demo as an official safety training or compliance record system.

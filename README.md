@@ -16,3 +16,7 @@ This is a static browser-local prototype. It does **not** have secure accounts, 
 ## Branding
 
 Replace `assets/branding/amped-logo.png` with an updated logo using the same filename to change the header branding later. Other brand assets are supplied for future design iterations.
+
+
+## Home-screen icon
+The icon files are in `assets/icons/`. Upload all files and folders to the repository root. On iPhone Safari, open the published site, tap Share > Add to Home Screen. If an older icon is cached, remove the old shortcut and add it again.

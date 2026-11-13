@@ -26,3 +26,10 @@ This is a browser-local demo. Meeting data is fictional; no live CRM integration
 - Skills > Results: view each technician's answers and score.
 - Existing browser-local demo records are migrated to a new editable skills bank without clearing prior data.
 - All assignments, edits, and results are stored in the current browser only. No real authentication, cross-device synchronization, or notifications.
+
+## Separate technician-only portal
+- Technician entry point: `technician/index.html` (URL ends in `/technician/`). Manager navigation, question editing, publishing and reporting are not shown here.
+- Due and Completed tabs show only the selected demo technician's assignments, including safety topics and skills quizzes.
+- Completed Safety on Construction Sites records display only completion metadata, not duplicate copies of the weekly document. Completed *additional* safety topics can be opened separately for review with their PDF and quiz answers.
+- The same browser on the same GitHub Pages origin shares the prototype's `localStorage` data with the manager page. **Different devices do not synchronize.** Technician selection is not authentication and must not be used for real compliance records.
+- A production rollout needs identity, permissions, secure server-side storage and shared assignments/results.
